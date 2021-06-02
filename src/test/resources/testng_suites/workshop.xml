@@ -1,5 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite verbose="1" name="Workshop - Desktop" parallel="methods">
+<suite verbose="1" name="Workshop Desktop" parallel="methods">
+
+	<parameter name="jenkinsJobType" value="web"/>
 
 	<test name="Sample tests">
 		<classes>
